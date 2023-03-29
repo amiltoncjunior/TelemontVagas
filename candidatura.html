@@ -47,7 +47,7 @@
     <div class="form-group">
       <label class="col-md-4 control-label" for="qual">Data de Nascimento</label>  
       <div class="col-md-4">
-      <input id="datanascimento" name="datanascimento" type="datetime-local" class="form-control input-md" required="">
+      <input id="datanascimento" name="datanascimento" type="datetime" class="form-control input-md" required="">
         
       </div>
     </div>
@@ -85,55 +85,14 @@
       </div>
     </div>
     
-    <!-- Multiple Radios -->
-    <div class="form-group">
-      <label class="col-md-4 control-label" for="nivel">Nível de ensino</label>
-      
-      <div class="col-md-4">
-      <div class="radio">
-        <label for="nivel-0">
-          <input type="radio" name="fundamental-completo" id="nivel-0" value="1" checked="checked">
-          Fundamental Completo
-        </label>
-      </div>
-      <div class="radio">
-        <label for="nivel-1">
-          <input type="radio" name="fundamental-medio-incompleto" id="nivel-1" value="">
-          Fundamental Incompleto
-        </label>
-      </div>
-      <div class="radio">
-        <label for="nivel-2">
-          <input type="radio" name="ensino-medio-completo" id="nivel-2" value="">
-          Ensino Médio Completo
-        </label>
-      </div>
-      <div class="radio">
-        <label for="nivel-3">
-          <input type="radio" name="ensino-medio-incompleto" id="nivel-3" value="">
-          Ensino médio Incompleto
-        </label>
-      </div>
-      <div class="radio">
-        <label for="nivel-4">
-          <input type="radio" name="graduacao" id="nivel-4" value="">
-          Graduação
-        </label>
-      </div>
-      <div class="radio">
-        <label for="nivel-5">
-          <input type="radio" name="posgraduacao" id="nivel-5" value="">
-          Pós-graduação
-        </label>
-      </div>
-      <div class="radio">
-        <label for="nivel-6">
-          <input type="radio" name="estudando" id="nivel-6" value="">
-          Estudo em andamento
-        </label>
-      </div>
-      </div>
-    </div>
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="vaga">Nível de ensino</label>  
+          <div class="col-md-4">
+          <input id="ensino" name="ensino" type="text" placeholder="ex: Nível Técnico ou Superior" class="form-control input-md" required="">
+            
+          </div>
+        </div>
     
     <!-- Text input-->
     <div class="form-group">
@@ -210,11 +169,10 @@
         <input id="currículo" name="currículo" class="input-file" type="file">
       </div>
     </div>
-
+    <button class="enviar" type="submit">Enviar</button>
     </fieldset>
     </form>
     
-      <a class="cando" href="#">Enviar</a>
     
 
   <footer class="footer">
