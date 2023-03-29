@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telemont Vagas</title>
+  <link rel="stylesheet" href="icomoon/style.css">
+  <link rel="stylesheet" href="css/login.css">
+
+</head>
+<body>
+  <header id="header">
+
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="/">Página Inicial</a></li>
+        <li><a href="#">Telemont</a></li>
+        <li><a href="/">Canditaturas</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <script src="./script.js"></script>
+
+  <main>
+    <div class="login-div">
+      <div class="header-logo">
+        <img class="logotipo" src="imagens/logo.png" alt="Telemount Logotipo">
+        <h2 class="telemount-vagas">Telemont<br><span style="color: rgb(34, 175, 121);text-transform: none;letter-spacing:0px; font-family: 'Caveat',Arial, Helvetica, sans-serif; font-size: 30px">Vagas</span></h2>
+      </div>
+
+      <form class="form-horizontal">
+        <fieldset>
+        
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="nameinput">E-mail:</label>  
+          <div class="col-md-4">
+          <input id="nameinput" name="nameinput" type="text" placeholder="Digite seu e-mail" class="form-control input-md" required="">
+            
+          </div>
+        </div>
+        
+        <!-- Password input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="passwordinput">Senha:</label>
+          <div class="col-md-4">
+            <input id="passwordinput" name="passwordinput" type="password" placeholder="Digite sua senha" class="form-control input-md">
+            
+          </div>
+        </div>
+        
+        </fieldset>
+        </form> 
+        <a class="password-forget" href="#">Esqueci minha senha</a>
+
+        <div class="register-div">
+          <p>Não possuí uma conta?</p>
+          <a href="register.html">Criar conta</a>
+        </div>
+    </div>
+
+    
+  </main>
+
+</body>
+</html>

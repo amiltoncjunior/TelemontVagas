@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Telemont Vagas</title>
+  <link rel="stylesheet" href="icomoon/style.css">
+  <link rel="stylesheet" href="css/candidatura.css">
+</head>
+<body>
+  <header id="header">
+    <div class="header-logo">
+      <img class="logotipo" src="imagens/logo.png" alt="Telemount Logotipo">
+    <h2 class="telemount-vagas">Telemont<br><span style="color: rgb(34, 175, 121);text-transform: none;letter-spacing:0px; font-family: 'Caveat',Arial, Helvetica, sans-serif; font-size: 30px;">Vagas</span></h2>
+    </div>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="/">Página Inicial</a></li>
+        <li><a href="#">Telemont</a></li>
+        <li><a href="/">Canditaturas</a></li>
+      </ul>
+    </nav>
+    <button class="login-button"><a href="#">Fazer Login</a></button>
+  </header>
+  <script src="./script.js"></script>
+
+  <form class="form-horizontal">
+    
+    <fieldset>
+    <!-- Form Name -->
+    <legend>Inscrição</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="nome">Nome completo</label>  
+          <div class="col-md-4">
+          <input id="nome" name="nome" type="text" placeholder="Digite o seu nome" class="form-control input-md" required="">
+          </div>
+        </div>
+
+            <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="qual">Data de Nascimento</label>  
+      <div class="col-md-4">
+      <input id="datanascimento" name="datanascimento" type="datetime-local" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+
+            <!-- Text input-->
+      <div class="form-group">
+        <label class="col-md-4 control-label" for="email">E-mail</label>  
+        <div class="col-md-4">
+        <input id="email" name="email" type="email" placeholder="Digite seu e-mail" class="form-control input-md" required="">
+        </div>
+      </div>
+
+          <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="qual">Telefone</label>  
+      <div class="col-md-4">
+      <input id="numero" name="numero" type="number" placeholder="Digite seu número" class="form-control input-md" required="">
+      </div>
+    </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+          <label class="col-md-4 control-label" for="cidadeuf">Cidade/UF</label>  
+          <div class="col-md-4">
+          <input id="cidadeuf" name="cidadeuf" type="text" placeholder="Sua Cidade/Estado" class="form-control input-md" required="">
+          </div>
+        </div>
+
+            <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="qual">Endereço</label>  
+      <div class="col-md-4">
+      <input id="endereço" name="endereço" type="text" placeholder="Digite seu endereço" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Multiple Radios -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="nivel">Nível de ensino</label>
+      
+      <div class="col-md-4">
+      <div class="radio">
+        <label for="nivel-0">
+          <input type="radio" name="fundamental-completo" id="nivel-0" value="1" checked="checked">
+          Fundamental Completo
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-1">
+          <input type="radio" name="fundamental-medio-incompleto" id="nivel-1" value="">
+          Fundamental Incompleto
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-2">
+          <input type="radio" name="ensino-medio-completo" id="nivel-2" value="">
+          Ensino Médio Completo
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-3">
+          <input type="radio" name="ensino-medio-incompleto" id="nivel-3" value="">
+          Ensino médio Incompleto
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-4">
+          <input type="radio" name="graduacao" id="nivel-4" value="">
+          Graduação
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-5">
+          <input type="radio" name="posgraduacao" id="nivel-5" value="">
+          Pós-graduação
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-6">
+          <input type="radio" name="estudando" id="nivel-6" value="">
+          Estudo em andamento
+        </label>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="vaga">Vaga de interesse</label>  
+      <div class="col-md-4">
+      <input id="vaga" name="vaga" type="text" placeholder="ex: secretário(a)" class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="Cursos ">Cursos Complementares</label>  
+      <div class="col-md-4">
+      <input id="Cursos " name="cursos" type="text" placeholder="Opcional" class="form-control input-md">
+        
+      </div>
+    </div>
+        
+    <!-- Text input-->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="qual">Idiomas</label>  
+      <div class="col-md-4">
+      <input id="idiomas" name="idiomas" type="text" placeholder="ex: inglês, espanhol..." class="form-control input-md" required="">
+        
+      </div>
+    </div>
+    
+    <!-- Multiple Radios -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="nivel">Nível</label>
+      <div class="col-md-4">
+      <div class="radio">
+        <label for="nivel-0">
+          <input type="radio" name="nivel" id="nivel-0" value="1" checked="checked">
+          Básico
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-1">
+          <input type="radio" name="nivel" id="nivel-1" value="">
+          Intermediário
+        </label>
+      </div>
+      <div class="radio">
+        <label for="nivel-2">
+          <input type="radio" name="nivel" id="nivel-2" value="">
+          Fluente
+        </label>
+      </div>
+      </div>
+    </div>
+    
+    <!-- Textarea -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="resumo">Resumo Profissional</label>
+      <div class="col-md-4">                     
+        <textarea class="form-control" id="resumo" name="resumo">Experiências</textarea>
+      </div>
+    </div>
+    
+    <!-- Textarea -->
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="sobre voce">Sobre Você</label>
+      <div class="col-md-4">                     
+        <textarea class="form-control" id="sobre-voce" name="sobre voce">Conte-nos sobre você</textarea>
+      </div>
+    </div>
+    
+    <!-- File Button --> 
+    <div class="form-group">
+      <label class="col-md-4 control-label" for="currículo">Currículo</label>
+      <div class="col-md-4">
+        <input id="currículo" name="currículo" class="input-file" type="file">
+      </div>
+    </div>
+
+    </fieldset>
+    </form>
+    
+      <a class="cando" href="#">Enviar</a>
+    
+
+  <footer class="footer">
+    <ul class="footer-menushare">
+      <li><a href="#" class="icon-facebook"><span class="hidden">Facebook</span></a></li>
+      <li><a href="#" class="icon-twitter"><span class="hidden">Twitter</span></a></li>
+      <li><a href="#" class="icon-google-plus"><span class="hidden">Google Plus</span></a></li>
+    </ul>
+    <p class="copyright">Telemont&copy Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
