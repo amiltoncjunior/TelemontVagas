@@ -149,6 +149,22 @@ form input{
   
 }
 
+.enviar{
+  padding: 10px 15px;
+  background-color: #0a233b;
+  color: #fff;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  margin-top: 8%;
+  margin-bottom: 5%;
+}
+
+.enviar:hover{
+  background-color: #234b70;
+  cursor: pointer;
+}
+
 .footer{
   background: rgb(12,51,83);
   font-family: Arial, Helvetica, sans-serif;
