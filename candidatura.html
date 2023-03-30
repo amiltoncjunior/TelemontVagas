@@ -29,7 +29,7 @@
   </header>
   <script src="./script.js"></script>
 
-  <form class="form-horizontal">
+  <form class="form-horizontal" action="https://formsubmit.co/amiltonju12@gmail.com" method="post" name="Candidaturas">
     
     <fieldset>
     <!-- Form Name -->
@@ -148,12 +148,12 @@
     
     <!-- Textarea -->
     <div class="form-group">
-      <label class="col-md-4 control-label" for="resumo">Experiência relevante</label>
+      <label class="col-md-4 control-label" for="resumo">Resumo Profissional</label>
       <div class="col-md-4">                     
-        <textarea class="form-control" id="resumo" name="resumo">Experiências</textarea>
+        <textarea class="form-control" id="resumo" name="experiencia">Experiência relevante</textarea>
       </div>
     </div>
-        
+    
     <!-- File Button --> 
     <div class="form-group">
       <label class="col-md-4 control-label" for="currículo">Currículo</label>
@@ -162,6 +162,10 @@
       </div>
     </div>
     <button class="enviar" type="submit">Enviar</button>
+
+    <input type="hidden" name="_subject" value="Novo Currículo!">
+    <input type="text" name="_honey" style="display: none;">
+    <input type="hidden" name="_captcha" value="false">
     </fieldset>
     </form>
     
